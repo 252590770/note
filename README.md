@@ -11,6 +11,11 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 
 
 ### 使用angular 去开发前端
+
+
+
+[todomvc 源码)](https://github.com/252590770/-/blob/master/demo/todomvc.zip)
+
 * [node下载引用包](#a)
 
 ```
@@ -63,10 +68,9 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
   }]);
 ```
 
-[nihao](https://github.com/252590770/-/blob/master/demo/todomvc.zip)
-[visist it](http:118.178.89.159)
+[todomvc 源码)](https://github.com/252590770/-/blob/master/demo/todomvc.zip)
 
-
+-----------
 
 * 电影展示的例子(Ajax请求,跨域, bootstrap 算是一个项目骨架)
 
