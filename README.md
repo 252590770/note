@@ -63,8 +63,8 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
   }]);
 ```
 
-![nihao](https://github.com/252590770/-/blob/master/demo/todomvc.zip)
-
+[nihao](https://github.com/252590770/-/blob/master/demo/todomvc.zip)
+[visist it](http:118.178.89.159)
 
 
 
