@@ -76,7 +76,7 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 
 ##### 熟悉前端开发后需要看   视频介绍:怎么构建一个项目骨架   前端  >>13. 主流框架\06 流行框架第6天 2016-02-17\videos\上午02-项目骨架.avi
 
-[电影展示 moviecat   源码](https://github.com/252590770/-/blob/master/demo/moviecat.zip)
+[电影展示 moviecat   源码](https://github.com/252590770/-/blob/master/demo/moviecat.zip)    
 [电影展示 moviecat视频中的demo   源码](https://github.com/252590770/-/blob/master/demo/moviecat视频中的demo.zip)
 
 
