@@ -86,7 +86,9 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 
 
 
-###  [SeaJS](#a)是JavaScript的模块化开发及加载机制 (13. 主流框架\07 流行框架第7天 02-19\2016-02-19\videos\下午04-SEAJS载入模块.avi)
+###  [SeaJS](#a)是JavaScript的模块化开发及加载机制 
+
+*  (13. 主流框架\07 流行框架第7天 02-19\2016-02-19\videos\下午04-SEAJS载入模块.avi)
 
 
 
