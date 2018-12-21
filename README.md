@@ -24,7 +24,7 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 
 * [在html中引用Angular](#a)
 
-[Angular2 中文网站](https://www.angular.cn/)    
+* [Angular2 中文网站](https://www.angular.cn/)    
 
 ```
 <script src="node_modules/angular/angular.js"></script>
