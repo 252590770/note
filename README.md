@@ -16,10 +16,10 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 
 ###  spring-boot  Windows服务器上当做服务来运行的       
 
-```
-那你可以使用winsw     
-可以参考下这篇文章哦 https://blog.csdn.net/qq_28566071/article/details/80882503 
-```
+```  
+ 那你可以使用winsw     
+ 可以参考下这篇文章哦 https://blog.csdn.net/qq_28566071/article/details/80882503 
+```  
 
 ### 安卓服务 
 
