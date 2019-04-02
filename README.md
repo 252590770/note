@@ -29,6 +29,11 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 
 [安卓动态申请权限   源码](https://github.com/252590770/-/blob/master/demo/安卓动态申请权限.zip)
 
+
+### 使用VUE 去开发前端   
+   
+   vue day2 使用vue发送ajax请求
+
 ### 使用angular 去开发前端
 
 #### PowerShell 命令行工具    https://github.com/zce
