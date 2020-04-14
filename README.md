@@ -10,16 +10,16 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 ### 安卓运行时权限
 
 
-  compile 'com.yanzhenjie:permission:2.0.0-rc4'
+	compile 'com.yanzhenjie:permission:2.0.0-rc4'
   
-   AndPermission.with(this)
-                .permission(new String[]{Manifest.permission.INTERNET,
-                                        Manifest.permission.ACCESS_COARSE_LOCATION,
-                                        Manifest.permission.ACCESS_FINE_LOCATION,
-                                        Manifest.permission.WRITE_EXTERNAL_STORAGE})
-                .onGranted(new Action() {
-                    @Override
-                    public void onAction(List<String> permissions) {
+	   AndPermission.with(this)
+			.permission(new String[]{Manifest.permission.INTERNET,
+				Manifest.permission.ACCESS_COARSE_LOCATION,
+				Manifest.permission.ACCESS_FINE_LOCATION,
+				Manifest.permission.WRITE_EXTERNAL_STORAGE})
+                   .onGranted(new Action() {
+                        @Override
+                       public void onAction(List<String> permissions) {
 
                         try {
                             ToastUtil.show(context, "请输入密码");
