@@ -36,6 +36,17 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 		
 
 
+
+### listview 自动刷新加载（RefreshRelativelayout  ）
+         
+          dependencies {
+   			 compile 'com.mbg.refreshrelativelayout:library:1.3.2'
+			}	 
+			
+	  F:\XiaoFangJianDu\BLEDemo420
+	 
+
+
 ### 接口文档模板 
 
 [接口文档模板   docx](https://github.com/252590770/-/blob/master/demo/API接口模板/接口模板.docx)
