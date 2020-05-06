@@ -47,6 +47,25 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 	 
 
 
+### LocalService  退出登录后闪退解决方法
+
+	protected Integer doInBackground(Integer... integers) {
+
+		 if (mSocket != null) {
+                      
+			//这里加上判断		      
+                        if(SPTool.getUserInfo(context)!=null){
+                            mSocket.sendLogin(SPTool.getUserInfo(context).body.comm_no + "", 0x02);
+                        }
+
+                  } else {
+                        break;
+                  }
+	
+	
+	
+		  
+
 ### 接口文档模板 
 
 [接口文档模板   docx](https://github.com/252590770/-/blob/master/demo/API接口模板/接口模板.docx)
