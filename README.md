@@ -61,8 +61,12 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
                   } else {
                         break;
                   }
-	
-	
+
+
+	//主页退出方法加上
+	 case R.id.ll_nav_close:
+
+                LocalService.myService.onDestroy();
 	
 		  
 
