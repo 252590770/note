@@ -76,6 +76,28 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 	Ringtone rt = RingtoneManager.getRingtone(getApplicationContext(), uri);
 	rt.play();
 
+### Android webview  返回事件 
+
+
+
+
+            case R.id.backf:
+			
+			
+	     if ( equitwebView_web.canGoBack()) {
+	         //后退
+		quitwebView_web.goBack();
+		break;
+	     }
+
+		finish();
+			
+			
+		break;
+
+
+
+
 ### 接口文档模板 
 
 [接口文档模板   docx](https://github.com/252590770/-/blob/master/demo/API接口模板/接口模板.docx)
