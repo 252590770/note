@@ -70,6 +70,12 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 	
 		  
 
+### 安卓调用系统声音
+
+	Uri uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+	Ringtone rt = RingtoneManager.getRingtone(getApplicationContext(), uri);
+	rt.play();
+
 ### 接口文档模板 
 
 [接口文档模板   docx](https://github.com/252590770/-/blob/master/demo/API接口模板/接口模板.docx)
