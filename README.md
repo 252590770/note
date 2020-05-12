@@ -43,7 +43,7 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
    			 compile 'com.mbg.refreshrelativelayout:library:1.3.2'
 			}	 
 			
-	  F:\XiaoFangJianDu\AndroidBLE-master
+	  E:\gyworkspace\YingQu
 	 
 
 
