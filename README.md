@@ -67,7 +67,12 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 	 case R.id.ll_nav_close:
 
                 LocalService.myService.onDestroy();
-	
+
+
+### 安卓WebView 隐藏放大缩小控制条
+
+	WebSettings webSettings = equitwebView_web.getSettings();
+	webSettings.setDisplayZoomControls(false);
 		  
 
 ### 安卓调用系统声音
