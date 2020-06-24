@@ -99,6 +99,26 @@ __browser-sync__ 除了具有http-server的功能外,还能同时调试不同的
 			
 			
 		break;
+		
+		------
+		
+		@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+
+		if (keyCode == KeyEvent.KEYCODE_BACK/* && equitwebView_web.canGoBack()*/) {
+
+			if ( equitwebView_web.canGoBack()) {
+				//后退
+				equitwebView_web.goBack();
+
+			}else {
+				return super.onKeyDown(keyCode, event);
+			}
+			return true;
+		}
+
+		return super.onKeyDown(keyCode, event);
+	}
 
 
 
